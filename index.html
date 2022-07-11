@@ -1,20 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- bootstrap css link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- custom css file -->
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
 
-    <!-- bootstrap js link -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile E-commerce Website</title>
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- custom css file -->
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- navbar section -->
+  <div class="container fixed-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- header section -->
+  <div class="ex-background-1">
+  <div id="carouselExampleSlidesOnly" class="carousel slide ex-background" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+              <h1>Earphones</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero nihil sit quo ratione, odio
+                libero quam repudiandae facere consequatur ex.</p>
+              <button class="btn btn-dark">BUY NOW →</button>
+            </div>
+            <div class="col-md-6">
+              <img src="images/banner-products/product-1.png" class="d-block w-100" alt="product-1">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+              <h1>Earphones</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero nihil sit quo ratione, odio
+                libero quam repudiandae facere consequatur ex.</p>
+              <button class="btn btn-dark">BUY NOW →</button>
+            </div>
+            <div class="col-md-6">
+              <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="slider-1">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+              <h1>Microphone</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero nihil sit quo ratione, odio
+                libero quam repudiandae facere consequatur ex.</p>
+              <button class="btn btn-dark">BUY NOW →</button>
+            </div>
+            <div class="col-md-6">
+              <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="slider-3">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <!-- Mobile section -->
+  <div class="container">
+    <div class="all-items d-flex justify-content-between">
+      <h3>Smartphone</h3>
+      <h5>See All</h5>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-top">
+
+      <div class="col">
+        <div class="card">
+          <img src="images/phone/phone-1.png" class="card-img-top" alt="phone-1">
+          <div class="card-body">
+            <h5 class="card-title">iPhone 11 Pro</h5>
+            <p class="card-text">Some quick example text to build on <br> the card title.</p>
+            <h5 class="s-margin">$999</h5>
+            <button class="btn btn-dark">BUY NOW →</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="images/phone/phone-3.png" class="card-img-top" alt="phone-3">
+          <div class="card-body">
+            <h5 class="card-title">Samsung Galaxy Note10+</h5>
+            <p class="card-text">Some quick example text to build on <br> the card title.</p>
+            <h5 class="s-margin">$799</h5>
+            <button class="btn btn-dark">BUY NOW →</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="images/phone/phone-2.png" class="card-img-top" alt="phone-2">
+          <div class="card-body">
+            <h5 class="card-title">RealMe C17</h5>
+            <p class="card-text">Some quick example text to build on <br> the card title.</p>
+            <h5 class="s-margin">$699</h5>
+            <button class="btn btn-dark">BUY NOW →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Laptop section -->
+  <!-- Mobile section -->
+  <div class="container">
+    <div class="all-items d-flex justify-content-between">
+      <h3>Laptop</h3>
+      <h5>See All</h5>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-top">
+
+      <div class="col">
+        <div class="card s-height">
+          <img src="images/laptop/product-1.png" class="card-img-top" alt="product-1">
+          <div class="card-body">
+            <h5 class="card-title">iPhone 11 Pro</h5>
+            <p class="card-text">Some quick example text to build on <br> the card title.</p>
+            <h5 class="s-margin">$999</h5>
+            <button class="btn btn-dark">BUY NOW →</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card s-height">
+          <img src="images/laptop/product-2.png" class="card-img-top" alt="product-2">
+          <div class="card-body">
+            <h5 class="card-title">Samsung Galaxy Note10+</h5>
+            <p class="card-text">Some quick example text to build on <br> the card title.</p>
+            <h5 class="s-margin">$799</h5>
+            <button class="btn btn-dark">BUY NOW →</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card s-height">
+          <img src="images/laptop/product-3.png" class="card-img-top" alt="product-3">
+          <div class="card-body">
+            <h5 class="card-title">RealMe C17</h5>
+            <p class="card-text">Some quick example text to build on <br> the card title.</p>
+            <h5 class="s-margin">$699</h5>
+            <button class="btn btn-dark">BUY NOW →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- catagories section -->
+  <div class="container">
+    <h2 class="text-center">Catagories</h2>
+    <div id="s-underline"></div>
+    <div class="row">
+      <div class="col-md-3 cat-img ex-margin">
+        <img src="images/Categories/bag.png" alt="bag">
+      </div>
+      <div class="col-md-3 ex-margin-1 cat-img d-flex flex-column ">
+        <img src="images/Categories/perfume.png" alt="pale-order">
+        <img class="sm-img-margin" src="images/Categories/shoe.png" alt="shoe">
+      </div>
+      <div class="col-md-6 size-sm">
+        <img src="images/Categories/pale-order.png" alt="pale-order">
+      </div>
+    </div>
+  </div>
+
+  <!-- footer section -->
+  <footer>
+    <!-- <small>©Copyright 2022. All rights reserved by e-commerce website.</small> -->
+    <p>©Copyright 2022. All rights reserved by e-commerce website.</p>
+  </footer>
+
+  <!-- bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
